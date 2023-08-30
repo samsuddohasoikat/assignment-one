@@ -1,0 +1,38 @@
+/* Shared style */
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(253, 228, 232);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.left-para {
+  margin: 0 200px 150px;
+}
+
+.flower {
+  margin: 150px 150px 0px 0px;
+  max-height: 700px;
+}
+
+.heading-one {
+  margin: 400px;
+  font-size: 50px;
+}
+.heading-two {
+  margin: 40px 0 40px 0;
+  font-size: small;
+}
+
+.botam {
+  padding: 20px 40px;
+  color: rgb(253, 228, 232);
+  border-radius: 10px;
+  border-color: rgb(253, 228, 232);
+  background-color: rgb(250, 145, 162);
+}
