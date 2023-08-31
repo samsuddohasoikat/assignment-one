@@ -5,6 +5,9 @@
   padding: 0;
   background-color: rgb(253, 228, 232);
 }
+.heading{
+  margin: 130px;
+}
 
 .header {
   display: flex;
@@ -26,7 +29,6 @@
 }
 .heading-two {
   margin: 40px 0 40px 0;
-  font-size: small;
 }
 
 .botam {
@@ -36,3 +38,57 @@
   border-color: rgb(253, 228, 232);
   background-color: rgb(250, 145, 162);
 }
+
+/* insight main */
+.featured{
+  text-align: center;
+  margin: 0 500px 500px;
+}
+
+.spec{
+  margin: 200px 0;
+}
+
+.second-part{
+  display: flex;
+
+}
+
+.jar{
+  padding: 80px 80px 80px 80px;
+  background-color: rgb(231, 163, 80);
+  height: 300px;
+  width: 200px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-right: 40px;
+}
+
+.one{
+  background-image: url("/styles/pngwing\ 1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.two{
+  background: rgba(5, 151, 160, 0.15);
+  background-image: url("/styles/pngwing\ 2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.three{
+  background: rgba(71, 125, 17, 0.15);
+  background-image: url("/styles/pngwing\ 3.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 200px;
+
+}
+
